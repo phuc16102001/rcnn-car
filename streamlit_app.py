@@ -23,14 +23,12 @@ def create_ui():
     col1, col2, col3 = st.columns([1, 6, 1])
     st.write("Threshold = " + str(threshold))
     
-    with col1:
-        pass
+    with col1: pass
     with col2:
         if image_file is not None:
             img = load_image(image_file)
             col1.image(img, width=250,use_column_width=True)
-    with col3:
-        pass
+    with col3: pass
     
     if detect_button:
         if image_file is not None:
@@ -44,8 +42,7 @@ def create_ui():
             
             img_predicted = preds(img, threshold, rects, callback=lambda x:progress_bar.progress(x))
             st.image(img_predicted, width=250, use_column_width=True)
-        else:
-            st.write("You have to choose image to detect.")
+        else: st.write("You have to choose image to detect.")
 
 if __name__ == "__main__":
     create_ui()
