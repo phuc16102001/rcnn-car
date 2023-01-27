@@ -35,7 +35,9 @@ For more detail, you can checkout ours explanation videos:
 
 ## Usage
 
-At the first stage, you need to install all the requirement libraries:
+Regardings the pre-trained model, we have splitted it into 10 parts in `models`. Please first use a joiner tool (example [pinetool](https://pinetools.com/join-files)) to join those file into `best_linear_svm_alexnet_car.pth`.
+
+Then, you need to install all the requirement libraries:
 
 ```bash
 pip install -r requirements.txt
@@ -53,8 +55,8 @@ Our research team including:
 
 - [phuc16102001](https://github.com/phuc16102001)
 - [Qambitions](https://github.com/Qambitions)
-- []()
-- []()
+- [vhbduy](https://github.com/vhbduy)
+- [LMSi](https://github.com/LMSi)
 
 ## Citation
 
