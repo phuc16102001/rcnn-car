@@ -56,7 +56,7 @@ Our research team including:
 - [phuc16102001](https://github.com/phuc16102001)
 - [Qambitions](https://github.com/Qambitions)
 - [vhbduy](https://github.com/vhbduy)
-- [LMSi](https://github.com/LMSi)
+- [minhsile](https://github.com/minhsile)
 
 ## Citation
 
