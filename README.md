@@ -64,7 +64,7 @@ This repository is built based on [R-CNN repository](https://github.com/object-d
 
 Reference papers:
 
-```
+```bibtex
 @misc{girshick2013rich,
     title={Rich feature hierarchies for accurate object detection and semantic segmentation},
     author={Ross Girshick and Jeff Donahue and Trevor Darrell and Jitendra Malik},
